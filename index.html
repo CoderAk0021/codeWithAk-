@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=360, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link media="screen and (max-width: 360px)" rel="stylesheet" href="style.css">
+    <link media="screen and (min-width: 361px)" rel="stylesheet" href="widescreen.css">
+  
+  <title>CodewithAk</title>
+</head>
+<body>
+  <header class="sticky-nav">
+   <section class="upper-material">
+     <div class="website-name">
+      <img src = "/Icons/codewithak-high-resolution-logo-transparent.png">
+    </div>
+    <div class="nav-bar">
+      <div class="nav-bar-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+   </section>
+   <section class="lower-material">
+     <div class="search-bar">
+       <input type="search" placeholder="search here">
+     </div>
+   </section>
+  </header>
+  <h2>Web Projects</h2>
+  <main>
+    
+  </main>
+  <div id="codeModal" class="modal">
+    <div class="modal-content">
+      <div class="controller">
+        <div class="tabs">
+          <span onclick="showTab('html')">HTML</span>
+          <span onclick="showTab('css')">CSS</span>
+          <span onclick="showTab('js')">JS</span>
+        </div>
+        <span class="close" onclick="closeModal()">&times;</span>
+      </div>
+      <div id="codeContainer">
+        <!-- Code content goes here -->
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="contact">
+      <h3>Contact</h3>
+      <a href="">YouTube</a>
+      <a href="">Instagram</a>
+      <a href="">Linkedin</a>
+      <a href="">Facebook</a>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
