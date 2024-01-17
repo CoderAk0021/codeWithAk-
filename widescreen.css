@@ -71,9 +71,10 @@ main{
   display:grid;
   width:100%;
   padding:30px;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 31.5% 31.5% 31.5%;
   gap:30px;
-  
+  background:#F2F3FF;
+  place-items: center;
 }
 h2{
   text-align: center;
@@ -138,9 +139,7 @@ footer{
   width:100%;
   padding:20px;
   background:#474747;
-  position: sticky;
-  bottom:0;
-  left:0;
+  
 }
 .contact{
   display:flex;

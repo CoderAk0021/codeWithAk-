@@ -11,7 +11,7 @@ navBtn.addEventListener("click", Expand)
 links = [
   { 'thumbnail': 'thumbnails/carousel.jpg', 'name': 'Wallpaper Carousel', 'downloadid': '15UIDzWc8wjQFEzBL6cSsdCftpDDptFau', 'description': 'A superb Wallpaper carousel made with HTML CSS and JavaScript'},
   { 'thumbnail': 'thumbnails/chatGptLogin.jpg', 'name': 'ChatGPT SignInForm', 'downloadid': '', 'description': 'It is the clone of the chatGPT login page.' },
-  { 'thumbnail': '/thumbnails/loginForm.jpg', 'name': 'Login Form', 'downloadid': '', 'description': 'A beautiful template of login form.' },
+  { 'thumbnail': 'thumbnails/loginForm.jpg', 'name': 'Login Form', 'downloadid': '', 'description': 'A beautiful template of login form.' },
   { 'thumbnail': 'thumbnails/otpValidator.jpg', 'name': 'OTP Validator', 'downloadid': '1MJ7b9BzGVwKZAo3TFCYN4Ddq5xRrB6SM', 'description': 'It will provide you an idea to make a operational OTP Validator.' },
   { 'thumbnail': 'thumbnails/Timer.jpg', 'name': 'Timer', 'downloadid': '', 'description': 'A simple yet beautiful stop watch made by using HTML CSS and JavaScript' },
     { 'thumbnail': 'thumbnails/calendar.jpg', 'name': 'Calendar', 'downloadid': '15gxNKPcOIjD5vjoSlQgoYtGxSObel40d', 'description': 'A basic calendar that will give you an idea to develop your own calendar.' },
