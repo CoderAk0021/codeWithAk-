@@ -13,7 +13,7 @@ links = [
   { 'thumbnail': 'thumbnails/chatGptLogin.jpg', 'name': 'ChatGPT SignInForm', 'downloadid': '16XhcEEMmiW5iYxwoD_KoXcazv1vhy03x', 'description': 'It is the clone of the chatGPT login page.' },
   { 'thumbnail': 'thumbnails/loginForm.jpg', 'name': 'Login Form', 'downloadid': '16UVjJiME3xo-zeQv3w1i84Al8EcbFsoO', 'description': 'A beautiful template of login form.' },
   { 'thumbnail': 'thumbnails/otpValidator.jpg', 'name': 'OTP Validator', 'downloadid': '1MJ7b9BzGVwKZAo3TFCYN4Ddq5xRrB6SM', 'description': 'It will provide you an idea to make a operational OTP Validator.' },
-  { 'thumbnail': '/thumbnails/RegistrationForm.jpg', 'name': 'Registration Form', 'downloadid': '16ZNaloZTQMJLAFVKDOXOfx9kpPbH4mXD', 'description': 'It is a school registration form and it has all concept for handling and viewing pdfs.' },
+  { 'thumbnail': 'thumbnails/RegistrationForm.jpg', 'name': 'Registration Form', 'downloadid': '16ZNaloZTQMJLAFVKDOXOfx9kpPbH4mXD', 'description': 'It is a school registration form and it has all concept for handling and viewing pdfs.' },
     { 'thumbnail': 'thumbnails/calendar.jpg', 'name': 'Calendar', 'downloadid': '15gxNKPcOIjD5vjoSlQgoYtGxSObel40d', 'description': 'A basic calendar that will give you an idea to develop your own calendar.' },
       { 'thumbnail': 'thumbnails/Timer.jpg', 'name': 'Timer', 'downloadid': '', 'description': 'A simple yet beautiful stop watch made by using HTML CSS and JavaScript' },
       { 'thumbnail': 'thumbnails/currencyConverter.jpg', 'name': 'Currency Converter', 'downloadid': '1G129AL56nRKZo3FuzA0O4mQzXvk1_Lk3', 'description': 'A real time currency exchange web app made using html css and javascript.' },
