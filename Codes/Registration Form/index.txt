@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=1024, initial-scale=1.0">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js">
+    </script>
+</head>
+
+    <body>
+      <div class="container">
+    <header>
+      <p>Registration</p>
+    </header>
+    <main>
+      <div class="controls">
+        <p class="name">Status</p>
+        <div class="option">
+          <div>
+            <span  class="border"></span>
+            <section  class="tab">
+              <span class="material-symbols-outlined">
+                account_circle
+              </span>
+              <span>Personal Details</span>
+            </section>
+          </div>
+          <div>
+            <span class="border"></span>
+            <section class="tab">
+              <span class="material-symbols-outlined">
+                subject
+              </span>
+              <span>Subject Details</span>
+            </section>
+          </div>
+          <div>
+            <span class="border"></span>
+            <section class="tab">
+              <span class="material-symbols-outlined">description</span>
+              <span>Document Details</span>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="view-port">
+        <div class="head">
+          <p>Personal Details</p>
+        </div>
+        <div class="main-container">
+          <section class="personal-details">
+            <div>
+              <p class="title">Name</p>
+              <input type="text">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Father Name</p>
+              <input type="text">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Mother Name</p>
+              <input type="text">
+              <p class="error"></p>
+            </div>
+            <div class="gender">
+              <p class="title">Gender</p>
+              <section>
+                <label>
+                  Male
+                  <input type="radio" name="gender">
+                </label>
+                <label>
+                  Female
+                  <input type="radio" name="gender">
+                </label>
+              </section>
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Age</p>
+              <input type="number">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Mobile No.</p>
+              <input type="number">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Date of Birth</p>
+              <input type="date">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Email Address</p>
+              <input type="email">
+              <p class="error"></p>
+            </div>
+          </section>
+          <section class="subject-details">
+            <div>
+              <p class="title">Previous Class</p>
+              <input type="number">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Maximum Marks</p>
+              <input type="number">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Marks Obtained</p>
+              <input type="number">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Passing Year</p>
+              <input type="number">
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Previous School Name</p>
+              <input type="text">
+              <p class="error"></p>
+            </div><div>
+              <p class="title">Taking Admission For class</p>
+              <div class="drop-down">
+                <p class="value">
+                  <span></span>
+                  <span class="material-symbols-outlined">
+                    expand_more
+                  </span>
+                </p>
+                <div class="drop-container">
+                  <label>
+                    <input value = "11" type="radio" name="class">
+                    Class 11
+                  </label>
+                  <label>
+                    <input value = "12" type="radio" name="class">
+                    Class 12
+                  </label>
+                </div>
+              </div>
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Select Stream</p>
+              <select class="stream-select">
+                <option value= "-1">--select subject--</option>
+                <option value="0">Science</option>
+                <option value="1">Commerce
+                </option>
+                <option value="2">Arts</option>
+              </select>
+              <p class="error"></p>
+            </div>
+            <div>
+              <p class="title">Select Subject</p>
+              <select class="subject-select" multiple></select>
+            </div>
+          </section>
+          <section class="document-details">
+            <div class="data-head">
+              <p>S.No</p>
+              <p>Document Title</p>
+              <p>Preview</p>
+            </div>
+            <div class="data">
+              <p class="serial-number">1</p>
+              <section>
+                <p class="document-name">Photo</p>
+                <input type="file">
+                <p class="error"></p>
+              </section>
+              <section class="preview-container"></section>
+              <p class="serial-number">2</p>
+              <section>
+                <p class="document-name">10th Marksheet</p>
+                <input type="file">
+                <p class="error"></p>
+              </section>
+              <section class="preview-container"></section>
+              <p class="serial-number">3</p>
+              <section>
+                <p class="document-name">Admit Card</p>
+                <input type="file">
+                <p class="error"></p>
+              </section>
+              <section class="preview-container"></section>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <button disabled>Submit</button>
+    </footer>
+  </div> 
+  <script src="main.js"></script>
+  </body>
+
+</html>

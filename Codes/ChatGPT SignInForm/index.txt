@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ChatGpt</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Create your account</h1>
+    </header>
+    <section class="inputField">
+      <input type="email">
+      <label class="email"></label>
+    </section>
+    <div class="captcha">
+      <div class="g-recaptcha" 
+data-sitekey="6LfrFKQUAAAAAMzFobDZ7ZWy982lDxeps8cd1I2i" 
+></div>
+    </div>
+    <button>Continue</button>
+    <div class="log">
+      <p>Already have an account?</p>
+      <a href="#">Log in</a>
+    </div>
+    <div class="separator">
+      <p></p>
+      <b>or</b>
+      <p></p>
+    </div>
+    <div class="btn">
+      <div class"go">
+        <img src="google.png"width="25px">
+        <p>Continue with Google</p>
+      </div>
+      <div class"micro">
+        <img src="microsoft.png" width="25px">
+        <p>Continue with Microsoft</p>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer>
+  </script>
+</body>
+</html>

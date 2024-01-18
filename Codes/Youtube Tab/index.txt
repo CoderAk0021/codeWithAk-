@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>YouTube</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left"><i class="fa fa-angle-left"></i></div>
+    <ul class="tab_container">
+      <li class="tab">All</li>
+      <li class="tab" id="new">New to you</li>
+      <li class="tab">Rajpal Yadav</li>
+      <li class="tab">Coding</li>
+      <li class="tab">v
+        Movie</li>
+      <li class="tab">Jee Main</li>
+      <li class="tab">Hollywood</li>
+      <li class="tab">Coder</li>
+      <li class="tab">New Videos</li>
+      <li class="tab" id="feed">Send Feedback</li>
+    </ul>
+     <div class="right"><i class="fa fa-angle-right"></i></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

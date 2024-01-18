@@ -1,0 +1,97 @@
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+body{
+  height:100vh;
+  width:100%;
+  padding:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(30deg,#E2B7FF,#C0B7FF,#B7C7FF);
+}
+.profileCard{
+  width:100%;
+  padding:10px;
+  background:#fff;
+  border-radius:8px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 10px #737274;
+}
+.img{
+  width:100%;
+  text-align: center;
+  position:relative;
+  top:-30px;
+}
+.img img{
+  width:170px;
+  position:relative;
+  height:170px;
+  overflow: hidden ;
+  border-radius:8px;
+  box-shadow:0px 2px 20px #959595;
+}
+.about{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+  gap:3px;
+  margin-bottom:10px;
+}
+.about p{
+  font-size:15px;
+  font-weight:500;
+  color:#959595;
+}
+.info{
+  display:flex;
+  width:100%;
+  justify-content: center;
+  margin:10px 0;
+}
+.info div{
+  width:100%;
+  text-align: center;
+}
+.post p,.followers p,.following p{
+  font-weight:700;
+}
+.post b,.followers b,.following b{
+  color:#959595;
+  font-size:15px;
+}
+.btn{
+  margin:10px 0;
+  display:flex;
+  justify-content: center;
+  width:100%;
+  gap:20px;
+  padding:0 20px;
+}
+.btn button{
+  width:100%;
+  height:40px;
+  border:none;
+  background:none;
+  font-size:17px;
+  font-weight:500;
+  color:#fff;
+}
+.btn :first-child{
+  background:#BE6EFF !important;
+  border-radius:3px;
+}
+.msg{
+  border:1px solid #959595 !important;
+  border-radius:3px;
+  color:#959595 !important;
+}

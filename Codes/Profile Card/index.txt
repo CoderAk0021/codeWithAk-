@@ -1,0 +1,40 @@
+
+<!DOCTYPEhtml>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="profileCard">
+    <section class="img ">
+      <img src="/IMG-20200404-WA0003.jpg">
+    </section>
+    <section class="about">
+      <h3>Nancy </h3>
+      <p>K-Pop Singer/Model</p>
+    </section>
+    <section class="info">
+      <div class="post">
+        <p>342</p>
+        <b>Post</b>
+      </div>
+      <div class="followers">
+        <p>120K</p>
+        <b>Followers</b>
+      </div>
+      <div class="following">
+        <p>542</p>
+        <b>Following</b>
+      </div>
+    </section>
+    <section class="btn">
+      <button class="follow">Follow</button>
+      <button class="msg">Message</button>
+    </section>
+  </div>
+</body>
+</html>

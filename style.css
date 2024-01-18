@@ -117,7 +117,7 @@ h2{
 .btns{
   padding:12px 10px;
   display:flex;
-  justify-content: right;
+  justify-content: space-between;
   border-top:1px solid #9D9D9D;
 }
 .btn{

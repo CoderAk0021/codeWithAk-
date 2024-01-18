@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Wallpaper</title>
+  
+ 
+  
+
+  <!-- Custom Styles -->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Wallpaper Carousel</h1>
+  <div class="container">
+    
+    <div class="carousel">
+      <img  class="img1" src="/hero_endframe__dtzvajyextyu_large.jpg">
+      <img class="img2" src="/hukIvshY.png">
+      <img class="img3" src="/Apple_iPhone_14_Pro_Max_concept_render_performance_release_date_drdNBC.jpg">
+      <img class="img4" src="/7F3F3C54-E764-4430-86D2-87AEF029CAA2.jpeg">
+    </div>
+   
+  </div>
+   <p class="counter">
+ 1/4
+    </p>
+
+  <div class="controller">
+    <div class="left">
+      <span class="material-icons">
+        arrow_back_ios
+      </span>
+    </div>
+    <div class="dots">
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    </div>
+        <div class="right">
+          <span class="material-icons">
+            arrow_forward_ios
+          </span>
+        </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

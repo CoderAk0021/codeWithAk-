@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>OTP VALIDATOR</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <section class="header">
+      <h1>Verification</h1>
+      <img src="profile.png" width="100px">
+    </section>
+    <section class="input">
+      <p>Enter the OTP you received at</p>
+      <b>+91 *******867</b>
+      <div class="inputs">
+        <input type="number" />
+        <input type="number" disabled />
+        <input type="number" disabled />
+        <input type="number" disabled />
+      </div>
+    </section>
+    <section class="btn">
+      <button disabled>Verify</button>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
