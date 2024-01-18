@@ -36,7 +36,7 @@ jsTab.addEventListener("click",showJS);
 async function displayCode(file) {
   
   try {
-    const response = await fetch(`/Codes/${fileName}/${file}`);
+    const response = await fetch(`Codes/${fileName}/${file}`);
     const htmlContent = await response.text();
     
     codeBlock.textContent = htmlContent;
