@@ -20,7 +20,10 @@ links = [
       { 'thumbnail': 'thumbnails/DropDown.jpg', 'name': 'Drop Down', 'downloadid': '16S-GaIyjk7cIoFoJp7ySOSiJ1aKFFcJY', 'description': 'A beautiful drop-down with search facility, definitely you will love it' },
       { 'thumbnail': 'thumbnails/profileCard.jpg', 'name': 'Profile Card', 'downloadid': '15g18T6Omb4ru_42n5vvn_TxLiV1nbavR', 'description': 'This is a profile card that will give you a start to make some crazy profile cards.' },
       { 'thumbnail': 'thumbnails/QuizApp.jpg', 'name': 'Quiz App', 'downloadid': '19TnhBQkXrPwCOs_Nmqd4sGRSArugXUvG', 'description': 'This is a very interesting quiz app that will give you four option to select and also provide you the result in a dashboard.' },
-      { 'thumbnail': 'thumbnails/YouTubeTab.jpg', 'name': 'Youtube Tab', 'downloadid': '16Rc5TF_9d8NhOEc_MtLMcZT5YBneheMK', 'description': 'We are familiar with the YouTube scrolling tabs ,this is the clone of it' }
+      { 'thumbnail': 'thumbnails/YouTubeTab.jpg', 'name': 'Youtube Tab', 'downloadid': '16Rc5TF_9d8NhOEc_MtLMcZT5YBneheMK', 'description': 'We are familiar with the YouTube scrolling tabs ,this is the clone of it' },
+      {
+        'thumbnail': 'thumbnails/PinChecker.jpg', 'name': 'Pin Finder', 'downloadid': '1y_ht6tEvzu2LEPFt-n2P7q_63-0IA4i9', 'description': 'A beautiful and attractive Pin Finder Web App.'
+      }
   ]
 
 

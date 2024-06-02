@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+     <header>
+       <img src="clipart708897.png" width="60px">
+       <h2>Pin Finder</h2>
+     </header>
+     <main>
+       <input type="number" placeholder="Search">
+         <span class="material-icons">
+           search
+         </span>
+     </main>
+     <section class="result">
+        <p class="msg"></p>
+        <div class="info">
+
+        </div>
+     </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
