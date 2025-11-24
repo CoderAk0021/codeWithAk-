@@ -1,51 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=360, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta
-   name="description"
-   content = "This is the website of codeWithAk and you will get all the code files of my project here ."/>
-  <link rel="shortcut icon" type="image/x-icon" href="Icons/favicon.ico">
-  <link media="screen and (max-width: 449px)" rel="stylesheet" href="style.css">
-    <link media="screen and (min-width: 450px)" rel="stylesheet" href="widescreen.css">
-  
-  <title>CodewithAk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeWithAk | Project Library</title>
+  <link rel="shortcut icon" href="Icons/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="sticky-nav">
-   <section class="upper-material">
-     <div class="website-name">
-      <img src = "Icons/codewithak-high-resolution-logo-transparent.png">
+    <div class="website-name">
+      <img src="Icons/codewithak-high-resolution-logo-transparent.png" alt="CodeWithAk">
     </div>
-    <div class="nav-bar">
-      <div class="nav-bar-btn">
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="nav-controls">
+      <div class="search-container">
+        <input type="search" id="searchInput" placeholder="Search projects...">
+      </div>
+      <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="container">
+    <h2 class="section-title"><i class="fa-solid fa-code"></i> Web Projects</h2>
+    
+    <main id="mainContainer">
+      </main>
+
+    <div class="pagination" id="paginationControls"></div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>CodeWithAk</h3>
+          <p style="color: var(--text-muted); line-height: 1.6;">
+            Providing high-quality web development resources, source codes, and tutorials for developers worldwide.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+        <div class="footer-col">
+          <h3>Connect</h3>
+          <div class="social-links">
+            <a href="https://youtube.com/@coderAk0021"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/CoderAk0021"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+        &copy; 2025 CodeWithAk. All rights reserved.
       </div>
     </div>
-   </section>
-   <section class="lower-material">
-     <div class="search-bar">
-       <input type="search" placeholder="search here">
-     </div>
-   </section>
-  </header>
-  <h2>Web Projects</h2>
-  <main>
-    
-  </main>
-  <footer>
-    <div class="contact">
-      <h3>Contact</h3>
-      <a href="https://youtube.com/@coderAk0021?si=TREWU6K2QT6v2Lk7">YouTube</a>
-      <a href="#">Instagram</a>
-      <a href="#">Linkedin</a>
-      <a href="#">Facebook</a>
-    </div>
   </footer>
+
   <script src="main.js"></script>
 </body>
 </html>
